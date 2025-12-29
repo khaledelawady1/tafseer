@@ -63,7 +63,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: calc(100vh - 72px);
+    min-height: auto;
+    padding: 2rem 0;
 }
 
 .search-block {
@@ -76,6 +77,13 @@ main {
 
 .search-block .search {
     width: 100%;
+}
+
+#results {
+    width: 100%;
+    max-width: 520px;
+    margin: 1rem auto 0;
+    padding: 0 1rem;
 }
 
 .card {
