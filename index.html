@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quraan — Read & Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="brand">Quraan</div>
+    </header>
+
+    <main>
+        <div class="center-panel">
+            <div class="search-block">
+                <div style="position:relative; width:100%">
+                    <input id="suraInput" class="search" placeholder="اكتب اسم السورة" inputmode="text" />
+                    <div id="suraSuggest" class="sura-suggestions" aria-hidden="true"></div>
+                </div>
+                <div style="margin-top:.5rem; display:flex; gap:.5rem; align-items:center;">
+                    <input id="ayaInput" class="search" placeholder="اكتب رقم الأية" inputmode="numeric" />
+                    <button id="themeToggle" title="Toggle theme">🌓</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
